@@ -1,0 +1,253 @@
+Context values received:
+Configuration Parameters:
+sessions: [dct_arbiter.paul.25_09_17_14_10_38_4683]
+Server: https://sg106.office.dreamchip.de
+loaded_vplan: [dct_arbiter]
+UDAs: [Overall_Covered_Grade, Passed_Runs, Failed_Runs]
+Port: 8085
+Token: AAAF5pB-BKoAAAADJNAW.PitLAuVn67lBZtSG-O0rWoWtZ_11e0RL5kZs_Q1ZV84=
+Project: vmgr
+CUDAs: [overall_grade, passed_runs_count, failed_runs_count]
+Username: admin
+entityTypes: [Section, Metrics Port]
+debugMode: 1
+Tool version: TOOL:Cadence Verisium Manager 24.09-s001 build:2024-10-01 13:14:06
+URL: https://sg106.office.dreamchip.de:8085/vmgr/hmac/rest/ops-hub-license/acquire-ops-hub-license
+Request Body: {"value":"AAAF5pB-BKoAAAADJNAW.PitLAuVn67lBZtSG-O0rWoWtZ_11e0RL5kZs_Q1ZV84="}
+Response: {"value":"OPS_HUB_4e9ae377-c35b-4829-a07d-63994df70bcd"}
+License token value: 4e9ae377-c35b-4829-a07d-63994df70bcd
+OPS_HUB_4e9ae377-c35b-4829-a07d-63994df70bcd
+Get filtered sessions list request
+Fetching filter for sessions
+dct_arbiter.paul.25_09_17_14_10_38_4683
+Only one filter given
+URL: https://sg106.office.dreamchip.de:8085/vmgr/hmac/vapi/rest/sessions/list
+Request Body: {"filter":{"attValue":"dct_arbiter.paul.25_09_17_14_10_38_4683","@c":".AttValueFilter","attName":"name","operand":"EQUALS"},"sortSpec":[{"attName":"start_time","direction":"DESCENDING"}]}
+Response: [{"original_vsif":"/project/soclib/work/paul/trunk/setup/vmgr/vsif/base_session.vsif","launched_with_runner2_vmgr":"TRUE","owner":"paul","region_identifier":"default","top_dir":"/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/..","is_sflow":"FALSE","create_optimized_coverage_data":"NONE","session_type":"runner","session_name":"dct_arbiter.paul.25_09_17_14_10_38_4683","is_cr_mode_vmgr":false,"name":"dct_arbiter.paul.25_09_17_14_10_38_4683","coverage_library_version":"24.09-s001","use_incremental_merged_model_for_analysis_vmgr":true,"bundling_policy":"DISABLED","other_runs":0,"editing":"None","queuing_policy":"LONG2SHORT","number_of_entities":1,"incremental_merge_slice_size_vmgr":10,"session_status":"completed","post_session_log_file":"/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/post_session.log","duration":38,"running":0,"original_session_dir":"/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683","max_runs_in_parallel":5,"waiting":0,"precious_env_vars":"TMPDIR","resubmit_failed_submission_vmgr":0,"output_mode":"log_only","enable_session_recovery_vmgr":"FALSE","db_insertion_priority":"LOW","failed_runs":0,"log_file":"/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/vm_brun.log","has_ucd":1,"id":262176,"can_improve_tat_using_smart_run_vmgr":false,"start_time":1758111038000,"pre_session_script":"/project/soclib/work/paul/trunk/setup/vmgr/scripts/pre_session_script.sh","total_runs_in_session":3,"verification_scope":"default","resubmit_removed_drm_jobs_vmgr":0,"passed_runs":3,"incremental_merge_type_vmgr":"NONE","master_submission_policy":"execute_locally","description":"dct_arbiter","smart_scheduler_data_type_vmgr":"DURATION","time_for_sync":0,"end_time":1758111076000,"abort_dependent_jobs_on_nonzero_exit":"TRUE","propose_failure_clusters_vmgr":"FALSE","default_dispatch_parameters":"--partition=simulation","version":"1","pre_session_log_file":"/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/pre_session.log","last_update":1758111087467,"run_mode":"batch","model_dir":"$DIR(session)/model_dir","session_dir":"/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683","host_lock_timeout":0,"drm":"SLURM","free_hosts":"TRUE","use_weak_dependency_vmgr":false,"incremental_merge_runs_merged_vmgr":0,"updated_by_vmgr":"root","incremental_merge_last_time_merged_vmgr":0,"parsed_vsif":"parsed_dct_arbiter.paul.25_09_17_14_10_38_4683.vsif","session_source_type":"launch","abort_dependent_runs_on_failure":"FALSE","incremental_merge_timeout_to_merge_vmgr":300}]
+Retrieving filtered sessions JSON
+Parsed List: [{original_vsif=/project/soclib/work/paul/trunk/setup/vmgr/vsif/base_session.vsif, launched_with_runner2_vmgr=TRUE, owner=paul, region_identifier=default, top_dir=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/.., is_sflow=FALSE, create_optimized_coverage_data=NONE, session_type=runner, session_name=dct_arbiter.paul.25_09_17_14_10_38_4683, is_cr_mode_vmgr=false, name=dct_arbiter.paul.25_09_17_14_10_38_4683, coverage_library_version=24.09-s001, use_incremental_merged_model_for_analysis_vmgr=true, bundling_policy=DISABLED, other_runs=0, editing=None, queuing_policy=LONG2SHORT, number_of_entities=1, incremental_merge_slice_size_vmgr=10, session_status=completed, post_session_log_file=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/post_session.log, duration=38, running=0, original_session_dir=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683, max_runs_in_parallel=5, waiting=0, precious_env_vars=TMPDIR, resubmit_failed_submission_vmgr=0, output_mode=log_only, enable_session_recovery_vmgr=FALSE, db_insertion_priority=LOW, failed_runs=0, log_file=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/vm_brun.log, has_ucd=1, id=262176, can_improve_tat_using_smart_run_vmgr=false, start_time=1758111038000, pre_session_script=/project/soclib/work/paul/trunk/setup/vmgr/scripts/pre_session_script.sh, total_runs_in_session=3, verification_scope=default, resubmit_removed_drm_jobs_vmgr=0, passed_runs=3, incremental_merge_type_vmgr=NONE, master_submission_policy=execute_locally, description=dct_arbiter, smart_scheduler_data_type_vmgr=DURATION, time_for_sync=0, end_time=1758111076000, abort_dependent_jobs_on_nonzero_exit=TRUE, propose_failure_clusters_vmgr=FALSE, default_dispatch_parameters=--partition=simulation, version=1, pre_session_log_file=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/pre_session.log, last_update=1758111087467, run_mode=batch, model_dir=$DIR(session)/model_dir, session_dir=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683, host_lock_timeout=0, drm=SLURM, free_hosts=TRUE, use_weak_dependency_vmgr=false, incremental_merge_runs_merged_vmgr=0, updated_by_vmgr=root, incremental_merge_last_time_merged_vmgr=0, parsed_vsif=parsed_dct_arbiter.paul.25_09_17_14_10_38_4683.vsif, session_source_type=launch, abort_dependent_runs_on_failure=FALSE, incremental_merge_timeout_to_merge_vmgr=300}]
+Session Data: {original_vsif=/project/soclib/work/paul/trunk/setup/vmgr/vsif/base_session.vsif, launched_with_runner2_vmgr=TRUE, owner=paul, region_identifier=default, top_dir=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/.., is_sflow=FALSE, create_optimized_coverage_data=NONE, session_type=runner, session_name=dct_arbiter.paul.25_09_17_14_10_38_4683, is_cr_mode_vmgr=false, name=dct_arbiter.paul.25_09_17_14_10_38_4683, coverage_library_version=24.09-s001, use_incremental_merged_model_for_analysis_vmgr=true, bundling_policy=DISABLED, other_runs=0, editing=None, queuing_policy=LONG2SHORT, number_of_entities=1, incremental_merge_slice_size_vmgr=10, session_status=completed, post_session_log_file=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/post_session.log, duration=38, running=0, original_session_dir=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683, max_runs_in_parallel=5, waiting=0, precious_env_vars=TMPDIR, resubmit_failed_submission_vmgr=0, output_mode=log_only, enable_session_recovery_vmgr=FALSE, db_insertion_priority=LOW, failed_runs=0, log_file=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/vm_brun.log, has_ucd=1, id=262176, can_improve_tat_using_smart_run_vmgr=false, start_time=1758111038000, pre_session_script=/project/soclib/work/paul/trunk/setup/vmgr/scripts/pre_session_script.sh, total_runs_in_session=3, verification_scope=default, resubmit_removed_drm_jobs_vmgr=0, passed_runs=3, incremental_merge_type_vmgr=NONE, master_submission_policy=execute_locally, description=dct_arbiter, smart_scheduler_data_type_vmgr=DURATION, time_for_sync=0, end_time=1758111076000, abort_dependent_jobs_on_nonzero_exit=TRUE, propose_failure_clusters_vmgr=FALSE, default_dispatch_parameters=--partition=simulation, version=1, pre_session_log_file=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683/chain_0/pre_session.log, last_update=1758111087467, run_mode=batch, model_dir=$DIR(session)/model_dir, session_dir=/project/soclib/work/paul/trunk/modules/dct_arbiter/sim/run/dct_arbiter.paul.25_09_17_14_10_38_4683, host_lock_timeout=0, drm=SLURM, free_hosts=TRUE, use_weak_dependency_vmgr=false, incremental_merge_runs_merged_vmgr=0, updated_by_vmgr=root, incremental_merge_last_time_merged_vmgr=0, parsed_vsif=parsed_dct_arbiter.paul.25_09_17_14_10_38_4683.vsif, session_source_type=launch, abort_dependent_runs_on_failure=FALSE, incremental_merge_timeout_to_merge_vmgr=300}
+Filtered Sessions: [dct_arbiter.paul.25_09_17_14_10_38_4683]
+Fetching grade attributes based on the session and refinements
+Request Payload:
+{"filter":{"@c":".InFilter","values":["Section","Metrics Port"],"attName":"vplan_element_kind","operand":"IN"},"pageLength":1000,"pageOffset":0,"projection":{"selection":["overall_grade","passed_runs_count","failed_runs_count","Overall_Covered_Grade","Passed_Runs","Failed_Runs","element_id","vplan_element_kind"]},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"condition":"OR","chain":[{"attValue":"dct_arbiter.paul.25_09_17_14_10_38_4683","@c":".AttValueFilter","attName":"parent_session_name","operand":"EQUALS"}],"@c":".ChainedFilter"}},"vplan":"dct_arbiter"},"recursive":"true"}
+URL: https://sg106.office.dreamchip.de:8085/vmgr/hmac/vapi/rest/vplan/list-sub-elements
+Request Body: {"filter":{"@c":".InFilter","values":["Section","Metrics Port"],"attName":"vplan_element_kind","operand":"IN"},"pageLength":1000,"pageOffset":0,"projection":{"selection":["overall_grade","passed_runs_count","failed_runs_count","Overall_Covered_Grade","Passed_Runs","Failed_Runs","element_id","vplan_element_kind"]},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"condition":"OR","chain":[{"attValue":"dct_arbiter.paul.25_09_17_14_10_38_4683","@c":".AttValueFilter","attName":"parent_session_name","operand":"EQUALS"}],"@c":".ChainedFilter"}},"vplan":"dct_arbiter"},"recursive":"true"}
+Response: [{"Failed_Runs":"0","passed_runs_count":0,"Passed_Runs":"0","element_id":"d17c7c17-7da4-480b-858c-23fbf76d1392","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"0","overall_grade":0.0},{"Failed_Runs":"0","passed_runs_count":3,"Passed_Runs":"3","element_id":"1413ed46-2214-47b6-b0d2-eb671fcf56e1","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"37c7c184-7302-4b93-a635-67b9112485c7","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"921bafbb-88e0-4852-a00c-ec581ac6df46","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"c3464e8f-e15e-404b-be0b-347b82605484","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"2b0e19f1-94b0-489b-9c9b-985f735e464c","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"86e0231f-615e-42bc-add0-dc8152a50d9e","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"cede85fa-8ec3-481a-bbb6-9871b5fb3290","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":3,"Passed_Runs":"3","element_id":"79056052-690c-4980-b5a5-bfdf7dc891db","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"50.0","overall_grade":50.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"1aae225b-22f6-46a0-a759-6e54b510cda5","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"50.0","overall_grade":50.0},{"Failed_Runs":"0","passed_runs_count":0,"Passed_Runs":"1","element_id":"7558ffb0-417a-45fe-9b73-c66fad02079b","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"50.0","overall_grade":0.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"9e8dabcf-3cc5-4017-879d-786b1bd8c050","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"7fd29ad2-6117-47b6-8314-2819197e81f2","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"50.0","overall_grade":50.0},{"Failed_Runs":"0","passed_runs_count":0,"Passed_Runs":"1","element_id":"513a7eaa-19fd-4060-aa54-66659eb4ccf7","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"50.0","overall_grade":0.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"14b6415d-32b2-4079-af9e-ee7adce6024f","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"100.0","overall_grade":100.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"a3f3ce42-08fa-4931-9547-f3bcd3c648a8","failed_runs_count":0,"vplan_element_kind":"Section","Overall_Covered_Grade":"50.0","overall_grade":50.0},{"Failed_Runs":"0","passed_runs_count":0,"Passed_Runs":"1","element_id":"51c96859-69db-487b-9208-a73a95e7c945","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"50.0","overall_grade":0.0},{"Failed_Runs":"0","passed_runs_count":1,"Passed_Runs":"1","element_id":"0d4b500b-eacb-409c-8fee-9ec6a09aa675","failed_runs_count":0,"vplan_element_kind":"Metrics Port","Overall_Covered_Grade":"100.0","overall_grade":100.0}]
+Parsed List: [{Failed_Runs=0, passed_runs_count=0, Passed_Runs=0, element_id=d17c7c17-7da4-480b-858c-23fbf76d1392, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=3, Passed_Runs=3, element_id=1413ed46-2214-47b6-b0d2-eb671fcf56e1, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=37c7c184-7302-4b93-a635-67b9112485c7, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=921bafbb-88e0-4852-a00c-ec581ac6df46, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=c3464e8f-e15e-404b-be0b-347b82605484, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=2b0e19f1-94b0-489b-9c9b-985f735e464c, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=86e0231f-615e-42bc-add0-dc8152a50d9e, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=cede85fa-8ec3-481a-bbb6-9871b5fb3290, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=3, Passed_Runs=3, element_id=79056052-690c-4980-b5a5-bfdf7dc891db, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=1aae225b-22f6-46a0-a759-6e54b510cda5, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=0, Passed_Runs=1, element_id=7558ffb0-417a-45fe-9b73-c66fad02079b, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=50.0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=9e8dabcf-3cc5-4017-879d-786b1bd8c050, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=7fd29ad2-6117-47b6-8314-2819197e81f2, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=0, Passed_Runs=1, element_id=513a7eaa-19fd-4060-aa54-66659eb4ccf7, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=50.0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=14b6415d-32b2-4079-af9e-ee7adce6024f, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=a3f3ce42-08fa-4931-9547-f3bcd3c648a8, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=0, Passed_Runs=1, element_id=51c96859-69db-487b-9208-a73a95e7c945, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=50.0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=0d4b500b-eacb-409c-8fee-9ec6a09aa675, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}]
+Received Data:
+[{Failed_Runs=0, passed_runs_count=0, Passed_Runs=0, element_id=d17c7c17-7da4-480b-858c-23fbf76d1392, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=3, Passed_Runs=3, element_id=1413ed46-2214-47b6-b0d2-eb671fcf56e1, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=37c7c184-7302-4b93-a635-67b9112485c7, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=921bafbb-88e0-4852-a00c-ec581ac6df46, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=c3464e8f-e15e-404b-be0b-347b82605484, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=2b0e19f1-94b0-489b-9c9b-985f735e464c, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=86e0231f-615e-42bc-add0-dc8152a50d9e, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=cede85fa-8ec3-481a-bbb6-9871b5fb3290, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=3, Passed_Runs=3, element_id=79056052-690c-4980-b5a5-bfdf7dc891db, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=1aae225b-22f6-46a0-a759-6e54b510cda5, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=0, Passed_Runs=1, element_id=7558ffb0-417a-45fe-9b73-c66fad02079b, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=50.0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=9e8dabcf-3cc5-4017-879d-786b1bd8c050, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=7fd29ad2-6117-47b6-8314-2819197e81f2, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=0, Passed_Runs=1, element_id=513a7eaa-19fd-4060-aa54-66659eb4ccf7, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=50.0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=14b6415d-32b2-4079-af9e-ee7adce6024f, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=a3f3ce42-08fa-4931-9547-f3bcd3c648a8, failed_runs_count=0, vplan_element_kind=Section, Overall_Covered_Grade=50.0, overall_grade=50.0}, {Failed_Runs=0, passed_runs_count=0, Passed_Runs=1, element_id=51c96859-69db-487b-9208-a73a95e7c945, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=50.0, overall_grade=0.0}, {Failed_Runs=0, passed_runs_count=1, Passed_Runs=1, element_id=0d4b500b-eacb-409c-8fee-9ec6a09aa675, failed_runs_count=0, vplan_element_kind=Metrics Port, Overall_Covered_Grade=100.0, overall_grade=100.0}]
+In update needed check
+UDA value: 0
+CUDA value: 0.0
+In update needed check
+UDA value: 0
+CUDA value: 0
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for d17c7c17-7da4-480b-858c-23fbf76d1392
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 3
+CUDA value: 3
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 1413ed46-2214-47b6-b0d2-eb671fcf56e1
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 37c7c184-7302-4b93-a635-67b9112485c7
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 921bafbb-88e0-4852-a00c-ec581ac6df46
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for c3464e8f-e15e-404b-be0b-347b82605484
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 2b0e19f1-94b0-489b-9c9b-985f735e464c
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 86e0231f-615e-42bc-add0-dc8152a50d9e
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for cede85fa-8ec3-481a-bbb6-9871b5fb3290
+In update needed check
+UDA value: 50.0
+CUDA value: 50.0
+In update needed check
+UDA value: 3
+CUDA value: 3
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 79056052-690c-4980-b5a5-bfdf7dc891db
+In update needed check
+UDA value: 50.0
+CUDA value: 50.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 1aae225b-22f6-46a0-a759-6e54b510cda5
+In update needed check
+UDA value: 50.0
+CUDA value: 0.0
+Update needed: 1
+Update will be performed for 7558ffb0-417a-45fe-9b73-c66fad02079b
+Data to update: {Failed_Runs=0, Passed_Runs=0, Overall_Covered_Grade=0.0}
+Update entity request
+{"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"7558ffb0-417a-45fe-9b73-c66fad02079b"}
+Request Payload:
+{"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"7558ffb0-417a-45fe-9b73-c66fad02079b"}
+URL: https://sg106.office.dreamchip.de:8085/vmgr/hmac/vapi/rest/planning/update-metrics-port
+Request Body: {"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"7558ffb0-417a-45fe-9b73-c66fad02079b"}
+Response: {"timeStamp":1758111731358,"updated":null}
+Updated entity with id: 7558ffb0-417a-45fe-9b73-c66fad02079b
+Routing OID: UH-144-GBGUE145.4quruv5WNC3
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 9e8dabcf-3cc5-4017-879d-786b1bd8c050
+In update needed check
+UDA value: 50.0
+CUDA value: 50.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 7fd29ad2-6117-47b6-8314-2819197e81f2
+In update needed check
+UDA value: 50.0
+CUDA value: 0.0
+Update needed: 1
+Update will be performed for 513a7eaa-19fd-4060-aa54-66659eb4ccf7
+Data to update: {Failed_Runs=0, Passed_Runs=0, Overall_Covered_Grade=0.0}
+Update entity request
+{"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"513a7eaa-19fd-4060-aa54-66659eb4ccf7"}
+Request Payload:
+{"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"513a7eaa-19fd-4060-aa54-66659eb4ccf7"}
+URL: https://sg106.office.dreamchip.de:8085/vmgr/hmac/vapi/rest/planning/update-metrics-port
+Request Body: {"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"513a7eaa-19fd-4060-aa54-66659eb4ccf7"}
+Response: {"timeStamp":1758111731405,"updated":null}
+Updated entity with id: 513a7eaa-19fd-4060-aa54-66659eb4ccf7
+Routing OID: UH-144-GBGUE145.4quruv5WNC3
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 14b6415d-32b2-4079-af9e-ee7adce6024f
+In update needed check
+UDA value: 50.0
+CUDA value: 50.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for a3f3ce42-08fa-4931-9547-f3bcd3c648a8
+In update needed check
+UDA value: 50.0
+CUDA value: 0.0
+Update needed: 1
+Update will be performed for 51c96859-69db-487b-9208-a73a95e7c945
+Data to update: {Failed_Runs=0, Passed_Runs=0, Overall_Covered_Grade=0.0}
+Update entity request
+{"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"51c96859-69db-487b-9208-a73a95e7c945"}
+Request Payload:
+{"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"51c96859-69db-487b-9208-a73a95e7c945"}
+URL: https://sg106.office.dreamchip.de:8085/vmgr/hmac/vapi/rest/planning/update-metrics-port
+Request Body: {"metrics-port":{"Failed_Runs":0,"Passed_Runs":0,"Overall_Covered_Grade":0.0},"sticky-context":{"db-vplan":"true","runs-rs":{"filter":{"attValue":"-1","@c":".AttValueFilter","attName":"id","operand":"EQUALS"}},"vplan":"dct_arbiter"},"element-id":"51c96859-69db-487b-9208-a73a95e7c945"}
+Response: {"timeStamp":1758111731455,"updated":null}
+Updated entity with id: 51c96859-69db-487b-9208-a73a95e7c945
+Routing OID: UH-144-GBGUE145.4quruv5WNC3
+In update needed check
+UDA value: 100.0
+CUDA value: 100.0
+In update needed check
+UDA value: 1
+CUDA value: 1
+In update needed check
+UDA value: 0
+CUDA value: 0
+Update needed: 0
+No update needed for 0d4b500b-eacb-409c-8fee-9ec6a09aa675
+URL: https://sg106.office.dreamchip.de:8085/vmgr/hmac/rest/ops-hub-license/release-ops-hub-license
+Request Body: {"value":"OPS_HUB_4e9ae377-c35b-4829-a07d-63994df70bcd"}
+Response: {"value":true}
+Updates sync completed.
