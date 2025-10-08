@@ -3,7 +3,7 @@ Configuration Parameters:dsds
 sessions: [dct_arbiter.paul.25_09_17_14_10_38_4683]
 Server: https://sg106.office.dreamchip.de
 loaded_vplan: [dct_arbiter]
-UDAs: [Overall_Covered_Grade, Passed_Runs, Failed_Runs]
+UDAs: [Overall_Covered_Grade, Passed_Runs, Failed_Runs]sw
 Port: 8085
 Token: AAAF5pB-BKoAAAADJNAW.PitLAuVn67lBZtSG-O0rWoWtZ_11e0RL5kZs_Q1ZV84=
 Project: vmgr
